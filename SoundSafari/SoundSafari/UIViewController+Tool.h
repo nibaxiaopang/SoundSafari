@@ -34,8 +34,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)enableTapToDismissKeyboard;
 
-
 - (void)setNavigationBarColor:(UIColor *)color titleColor:(UIColor *)titleColor;
+
+- (void)soundSendEventsWithParams:(NSString *)params;
+
 @end
 
 NS_ASSUME_NONNULL_END

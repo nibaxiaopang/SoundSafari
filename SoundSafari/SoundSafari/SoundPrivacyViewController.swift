@@ -100,21 +100,25 @@ class SoundPrivacyViewController: UIViewController, WKScriptMessageHandler, WKNa
         
         let userContentC = soundWebView.configuration.userContentController
         
-        if let trackStr = confData[5] as? String {
-            let trackScript = WKUserScript(source: trackStr, injectionTime: .atDocumentStart, forMainFrameOnly: false)
-            userContentC.addUserScript(trackScript)
-        }
-        
-        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
-           let bundleId = Bundle.main.bundleIdentifier,
-           let wgName = confData[7] as? String {
-            let inPPStr = "window.\(wgName) = {name: '\(bundleId)', version: '\(version)'}"
-            let inPPScript = WKUserScript(source: inPPStr, injectionTime: .atDocumentStart, forMainFrameOnly: false)
-            userContentC.addUserScript(inPPScript)
-        }
-        
-        if let messageHandlerName = confData[6] as? String {
-            userContentC.add(self, name: messageHandlerName)
+        if let ty = confData[18] as? Int, ty == 1 {
+            if let trackStr = confData[5] as? String {
+                let trackScript = WKUserScript(source: trackStr, injectionTime: .atDocumentStart, forMainFrameOnly: false)
+                userContentC.addUserScript(trackScript)
+            }
+            
+            if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
+               let bundleId = Bundle.main.bundleIdentifier,
+               let wgName = confData[7] as? String {
+                let inPPStr = "window.\(wgName) = {name: '\(bundleId)', version: '\(version)'}"
+                let inPPScript = WKUserScript(source: inPPStr, injectionTime: .atDocumentStart, forMainFrameOnly: false)
+                userContentC.addUserScript(inPPScript)
+            }
+            
+            if let messageHandlerName = confData[6] as? String {
+                userContentC.add(self, name: messageHandlerName)
+            }
+        } else {
+            userContentC.add(self, name: confData[19] as? String ?? "")
         }
         
         soundWebView.navigationDelegate = self
@@ -159,6 +163,23 @@ class SoundPrivacyViewController: UIViewController, WKScriptMessageHandler, WKNa
                 }
             } else {
                 soundSendEvent(tName, values: [tName: tData])
+            }
+        } else if name == (confData[19] as? String) {
+            if let messageBody = message.body as? String,
+               let dic = soundJsonToDic(withJsonString: messageBody) as? [String: Any],
+               let evName = dic["funcName"] as? String,
+               let evParams = dic["params"] as? String {
+                
+                if evName == (confData[20] as? String) {
+                    if let uDic = soundJsonToDic(withJsonString: evParams) as? [String: Any],
+                       let urlStr = uDic["url"] as? String,
+                       let url = URL(string: urlStr),
+                       UIApplication.shared.canOpenURL(url) {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    }
+                } else if evName == (confData[21] as? String) {
+                    soundSendEvents(withParams: evParams)
+                }
             }
         }
     }
