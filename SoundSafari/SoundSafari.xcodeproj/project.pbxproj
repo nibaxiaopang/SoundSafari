@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DB1F31D2CA3A8FC8387DD7 /* Pods_SoundSafari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAFAFE7FA1F8FBB955C97 /* Pods_SoundSafari.framework */; };
+		FFA318E52CF0798C0003CFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA318DC2CF0798C0003CFD5 /* Assets.xcassets */; };
+		FFA318E72CF0798C0003CFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA318DF2CF0798C0003CFD5 /* LaunchScreen.storyboard */; };
+		FFA318E82CF0798C0003CFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA318E12CF0798C0003CFD5 /* Main.storyboard */; };
+		FFA318E92CF0798C0003CFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA318DB2CF0798C0003CFD5 /* AppDelegate.swift */; };
+		FFA318EA2CF0798C0003CFD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA318E22CF0798C0003CFD5 /* SceneDelegate.swift */; };
+		FFA318EB2CF0798C0003CFD5 /* SoundGameHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA318E32CF0798C0003CFD5 /* SoundGameHomeViewController.swift */; };
+		FFA3190D2CF07AEF0003CFD5 /* Sound_Safari.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFA319062CF07AEF0003CFD5 /* Sound_Safari.xcdatamodeld */; };
+		FFA3190E2CF07AEF0003CFD5 /* Hippopotamus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F72CF07AEF0003CFD5 /* Hippopotamus.mp3 */; };
+		FFA3190F2CF07AEF0003CFD5 /* Shark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319042CF07AEF0003CFD5 /* Shark.mp3 */; };
+		FFA319102CF07AEF0003CFD5 /* Dolphin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F12CF07AEF0003CFD5 /* Dolphin.mp3 */; };
+		FFA319112CF07AEF0003CFD5 /* Monkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318FC2CF07AEF0003CFD5 /* Monkey.mp3 */; };
+		FFA319122CF07AEF0003CFD5 /* Parrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318FF2CF07AEF0003CFD5 /* Parrot.mp3 */; };
+		FFA319132CF07AEF0003CFD5 /* Kangaroo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F92CF07AEF0003CFD5 /* Kangaroo.mp3 */; };
+		FFA319142CF07AEF0003CFD5 /* Zebra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA3190B2CF07AEF0003CFD5 /* Zebra.mp3 */; };
+		FFA319152CF07AEF0003CFD5 /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F82CF07AEF0003CFD5 /* Horse.mp3 */; };
+		FFA319162CF07AEF0003CFD5 /* Leopard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318FA2CF07AEF0003CFD5 /* Leopard.mp3 */; };
+		FFA319172CF07AEF0003CFD5 /* Rhinoceros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319032CF07AEF0003CFD5 /* Rhinoceros.mp3 */; };
+		FFA319182CF07AEF0003CFD5 /* Peacock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319002CF07AEF0003CFD5 /* Peacock.mp3 */; };
+		FFA319192CF07AEF0003CFD5 /* Owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318FD2CF07AEF0003CFD5 /* Owl.mp3 */; };
+		FFA3191A2CF07AEF0003CFD5 /* Fox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F42CF07AEF0003CFD5 /* Fox.mp3 */; };
+		FFA3191B2CF07AEF0003CFD5 /* Bear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318ED2CF07AEF0003CFD5 /* Bear.mp3 */; };
+		FFA3191C2CF07AEF0003CFD5 /* Snake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319052CF07AEF0003CFD5 /* Snake.mp3 */; };
+		FFA3191D2CF07AEF0003CFD5 /* Turtle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319082CF07AEF0003CFD5 /* Turtle.mp3 */; };
+		FFA3191E2CF07AEF0003CFD5 /* Frog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F52CF07AEF0003CFD5 /* Frog.mp3 */; };
+		FFA3191F2CF07AEF0003CFD5 /* Panda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318FE2CF07AEF0003CFD5 /* Panda.mp3 */; };
+		FFA319202CF07AEF0003CFD5 /* Tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319072CF07AEF0003CFD5 /* Tiger.mp3 */; };
+		FFA319212CF07AEF0003CFD5 /* Eagle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F22CF07AEF0003CFD5 /* Eagle.mp3 */; };
+		FFA319222CF07AEF0003CFD5 /* Giraffe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F62CF07AEF0003CFD5 /* Giraffe.mp3 */; };
+		FFA319232CF07AEF0003CFD5 /* Penguin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319012CF07AEF0003CFD5 /* Penguin.mp3 */; };
+		FFA319242CF07AEF0003CFD5 /* Rabbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319022CF07AEF0003CFD5 /* Rabbit.mp3 */; };
+		FFA319252CF07AEF0003CFD5 /* Cheetah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318EE2CF07AEF0003CFD5 /* Cheetah.mp3 */; };
+		FFA319262CF07AEF0003CFD5 /* Elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F32CF07AEF0003CFD5 /* Elephant.mp3 */; };
+		FFA319272CF07AEF0003CFD5 /* Crocodile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318EF2CF07AEF0003CFD5 /* Crocodile.mp3 */; };
+		FFA319282CF07AEF0003CFD5 /* Deer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318F02CF07AEF0003CFD5 /* Deer.mp3 */; };
+		FFA319292CF07AEF0003CFD5 /* Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA3190A2CF07AEF0003CFD5 /* Wolf.mp3 */; };
+		FFA3192A2CF07AEF0003CFD5 /* Whale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA319092CF07AEF0003CFD5 /* Whale.mp3 */; };
+		FFA3192B2CF07AEF0003CFD5 /* Lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA318FB2CF07AEF0003CFD5 /* Lion.mp3 */; };
+		FFA3192D2CF07C1D0003CFD5 /* SoundPlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3192C2CF07C1D0003CFD5 /* SoundPlaySoundViewController.swift */; };
+		FFA3192F2CF07C260003CFD5 /* SoundAnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3192E2CF07C260003CFD5 /* SoundAnimalCell.swift */; };
+		FFA319312CF07C330003CFD5 /* SoundQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319302CF07C330003CFD5 /* SoundQuizViewController.swift */; };
+		FFA319332CF07C410003CFD5 /* SoundSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319322CF07C410003CFD5 /* SoundSettingViewController.swift */; };
+		FFA319352CF07C4B0003CFD5 /* SoundAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319342CF07C4B0003CFD5 /* SoundAboutViewController.swift */; };
+		FFA319372CF07C520003CFD5 /* SoundFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319362CF07C520003CFD5 /* SoundFeedbackViewController.swift */; };
+		FFA319392CF07C690003CFD5 /* SoundRateUSViewConytroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319382CF07C690003CFD5 /* SoundRateUSViewConytroller.swift */; };
+		FFA3193B2CF07C7A0003CFD5 /* SoundAnimalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3193A2CF07C7A0003CFD5 /* SoundAnimalStruct.swift */; };
+		FFA3193D2CF07C870003CFD5 /* Cons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3193C2CF07C870003CFD5 /* Cons.swift */; };
+		FFA3193F2CF07CCD0003CFD5 /* SoundAnimalQuizStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3193E2CF07CCD0003CFD5 /* SoundAnimalQuizStruct.swift */; };
+		FFA319412CF0832B0003CFD5 /* SoundPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319402CF0832B0003CFD5 /* SoundPrivacyViewController.swift */; };
+		FFA319432CF083460003CFD5 /* SoundNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319422CF083460003CFD5 /* SoundNavigationController.swift */; };
+		FFA319452CF08A490003CFD5 /* SoundStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319442CF08A490003CFD5 /* SoundStartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47B2468DF26F61F787B1E213 /* Pods-SoundSafari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundSafari.debug.xcconfig"; path = "Target Support Files/Pods-SoundSafari/Pods-SoundSafari.debug.xcconfig"; sourceTree = "<group>"; };
+		8DCD19BB27AB66E1AC5D858D /* Pods-SoundSafari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundSafari.release.xcconfig"; path = "Target Support Files/Pods-SoundSafari/Pods-SoundSafari.release.xcconfig"; sourceTree = "<group>"; };
+		C08DAFAFE7FA1F8FBB955C97 /* Pods_SoundSafari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundSafari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA318C32CF0797D0003CFD5 /* SoundSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA318DB2CF0798C0003CFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA318DC2CF0798C0003CFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA318DD2CF0798C0003CFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA318DE2CF0798C0003CFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA318E02CF0798C0003CFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA318E22CF0798C0003CFD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFA318E32CF0798C0003CFD5 /* SoundGameHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundGameHomeViewController.swift; sourceTree = "<group>"; };
+		FFA318ED2CF07AEF0003CFD5 /* Bear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bear.mp3; sourceTree = "<group>"; };
+		FFA318EE2CF07AEF0003CFD5 /* Cheetah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cheetah.mp3; sourceTree = "<group>"; };
+		FFA318EF2CF07AEF0003CFD5 /* Crocodile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crocodile.mp3; sourceTree = "<group>"; };
+		FFA318F02CF07AEF0003CFD5 /* Deer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Deer.mp3; sourceTree = "<group>"; };
+		FFA318F12CF07AEF0003CFD5 /* Dolphin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dolphin.mp3; sourceTree = "<group>"; };
+		FFA318F22CF07AEF0003CFD5 /* Eagle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Eagle.mp3; sourceTree = "<group>"; };
+		FFA318F32CF07AEF0003CFD5 /* Elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elephant.mp3; sourceTree = "<group>"; };
+		FFA318F42CF07AEF0003CFD5 /* Fox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fox.mp3; sourceTree = "<group>"; };
+		FFA318F52CF07AEF0003CFD5 /* Frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Frog.mp3; sourceTree = "<group>"; };
+		FFA318F62CF07AEF0003CFD5 /* Giraffe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giraffe.mp3; sourceTree = "<group>"; };
+		FFA318F72CF07AEF0003CFD5 /* Hippopotamus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hippopotamus.mp3; sourceTree = "<group>"; };
+		FFA318F82CF07AEF0003CFD5 /* Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horse.mp3; sourceTree = "<group>"; };
+		FFA318F92CF07AEF0003CFD5 /* Kangaroo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kangaroo.mp3; sourceTree = "<group>"; };
+		FFA318FA2CF07AEF0003CFD5 /* Leopard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Leopard.mp3; sourceTree = "<group>"; };
+		FFA318FB2CF07AEF0003CFD5 /* Lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lion.mp3; sourceTree = "<group>"; };
+		FFA318FC2CF07AEF0003CFD5 /* Monkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Monkey.mp3; sourceTree = "<group>"; };
+		FFA318FD2CF07AEF0003CFD5 /* Owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Owl.mp3; sourceTree = "<group>"; };
+		FFA318FE2CF07AEF0003CFD5 /* Panda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Panda.mp3; sourceTree = "<group>"; };
+		FFA318FF2CF07AEF0003CFD5 /* Parrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Parrot.mp3; sourceTree = "<group>"; };
+		FFA319002CF07AEF0003CFD5 /* Peacock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Peacock.mp3; sourceTree = "<group>"; };
+		FFA319012CF07AEF0003CFD5 /* Penguin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Penguin.mp3; sourceTree = "<group>"; };
+		FFA319022CF07AEF0003CFD5 /* Rabbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rabbit.mp3; sourceTree = "<group>"; };
+		FFA319032CF07AEF0003CFD5 /* Rhinoceros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rhinoceros.mp3; sourceTree = "<group>"; };
+		FFA319042CF07AEF0003CFD5 /* Shark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shark.mp3; sourceTree = "<group>"; };
+		FFA319052CF07AEF0003CFD5 /* Snake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snake.mp3; sourceTree = "<group>"; };
+		FFA319072CF07AEF0003CFD5 /* Tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tiger.mp3; sourceTree = "<group>"; };
+		FFA319082CF07AEF0003CFD5 /* Turtle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Turtle.mp3; sourceTree = "<group>"; };
+		FFA319092CF07AEF0003CFD5 /* Whale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whale.mp3; sourceTree = "<group>"; };
+		FFA3190A2CF07AEF0003CFD5 /* Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wolf.mp3; sourceTree = "<group>"; };
+		FFA3190B2CF07AEF0003CFD5 /* Zebra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zebra.mp3; sourceTree = "<group>"; };
+		FFA3190C2CF07AEF0003CFD5 /* Sound_Safari.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sound_Safari.xcdatamodel; sourceTree = "<group>"; };
+		FFA3192C2CF07C1D0003CFD5 /* SoundPlaySoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaySoundViewController.swift; sourceTree = "<group>"; };
+		FFA3192E2CF07C260003CFD5 /* SoundAnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnimalCell.swift; sourceTree = "<group>"; };
+		FFA319302CF07C330003CFD5 /* SoundQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundQuizViewController.swift; sourceTree = "<group>"; };
+		FFA319322CF07C410003CFD5 /* SoundSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSettingViewController.swift; sourceTree = "<group>"; };
+		FFA319342CF07C4B0003CFD5 /* SoundAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAboutViewController.swift; sourceTree = "<group>"; };
+		FFA319362CF07C520003CFD5 /* SoundFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFeedbackViewController.swift; sourceTree = "<group>"; };
+		FFA319382CF07C690003CFD5 /* SoundRateUSViewConytroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRateUSViewConytroller.swift; sourceTree = "<group>"; };
+		FFA3193A2CF07C7A0003CFD5 /* SoundAnimalStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnimalStruct.swift; sourceTree = "<group>"; };
+		FFA3193C2CF07C870003CFD5 /* Cons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cons.swift; sourceTree = "<group>"; };
+		FFA3193E2CF07CCD0003CFD5 /* SoundAnimalQuizStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnimalQuizStruct.swift; sourceTree = "<group>"; };
+		FFA319402CF0832B0003CFD5 /* SoundPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPrivacyViewController.swift; sourceTree = "<group>"; };
+		FFA319422CF083460003CFD5 /* SoundNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundNavigationController.swift; sourceTree = "<group>"; };
+		FFA319442CF08A490003CFD5 /* SoundStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA318C02CF0797D0003CFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DB1F31D2CA3A8FC8387DD7 /* Pods_SoundSafari.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F501EEDE89F93AD5C73932A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B2468DF26F61F787B1E213 /* Pods-SoundSafari.debug.xcconfig */,
+				8DCD19BB27AB66E1AC5D858D /* Pods-SoundSafari.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		923AD9E08A4F3EA4C8DA5512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C08DAFAFE7FA1F8FBB955C97 /* Pods_SoundSafari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA318BA2CF0797D0003CFD5 = {
+			isa = PBXGroup;
+			children = (
+				FFA318E42CF0798C0003CFD5 /* SoundSafari */,
+				FFA318C42CF0797D0003CFD5 /* Products */,
+				2F501EEDE89F93AD5C73932A /* Pods */,
+				923AD9E08A4F3EA4C8DA5512 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA318C42CF0797D0003CFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA318C32CF0797D0003CFD5 /* SoundSafari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA318E42CF0798C0003CFD5 /* SoundSafari */ = {
+			isa = PBXGroup;
+			children = (
+				FFA318DB2CF0798C0003CFD5 /* AppDelegate.swift */,
+				FFA318E22CF0798C0003CFD5 /* SceneDelegate.swift */,
+				FFA318DC2CF0798C0003CFD5 /* Assets.xcassets */,
+				FFA318DD2CF0798C0003CFD5 /* Info.plist */,
+				FFA318DF2CF0798C0003CFD5 /* LaunchScreen.storyboard */,
+				FFA318E12CF0798C0003CFD5 /* Main.storyboard */,
+				FFA319442CF08A490003CFD5 /* SoundStartViewController.swift */,
+				FFA319402CF0832B0003CFD5 /* SoundPrivacyViewController.swift */,
+				FFA318E32CF0798C0003CFD5 /* SoundGameHomeViewController.swift */,
+				FFA319422CF083460003CFD5 /* SoundNavigationController.swift */,
+				FFA3192C2CF07C1D0003CFD5 /* SoundPlaySoundViewController.swift */,
+				FFA3192E2CF07C260003CFD5 /* SoundAnimalCell.swift */,
+				FFA319302CF07C330003CFD5 /* SoundQuizViewController.swift */,
+				FFA319322CF07C410003CFD5 /* SoundSettingViewController.swift */,
+				FFA319342CF07C4B0003CFD5 /* SoundAboutViewController.swift */,
+				FFA319362CF07C520003CFD5 /* SoundFeedbackViewController.swift */,
+				FFA319382CF07C690003CFD5 /* SoundRateUSViewConytroller.swift */,
+				FFA3193A2CF07C7A0003CFD5 /* SoundAnimalStruct.swift */,
+				FFA3193C2CF07C870003CFD5 /* Cons.swift */,
+				FFA3193E2CF07CCD0003CFD5 /* SoundAnimalQuizStruct.swift */,
+				FFA318EC2CF07ABD0003CFD5 /* SoundResouce */,
+			);
+			path = SoundSafari;
+			sourceTree = "<group>";
+		};
+		FFA318EC2CF07ABD0003CFD5 /* SoundResouce */ = {
+			isa = PBXGroup;
+			children = (
+				FFA318ED2CF07AEF0003CFD5 /* Bear.mp3 */,
+				FFA318EE2CF07AEF0003CFD5 /* Cheetah.mp3 */,
+				FFA318EF2CF07AEF0003CFD5 /* Crocodile.mp3 */,
+				FFA318F02CF07AEF0003CFD5 /* Deer.mp3 */,
+				FFA318F12CF07AEF0003CFD5 /* Dolphin.mp3 */,
+				FFA318F22CF07AEF0003CFD5 /* Eagle.mp3 */,
+				FFA318F32CF07AEF0003CFD5 /* Elephant.mp3 */,
+				FFA318F42CF07AEF0003CFD5 /* Fox.mp3 */,
+				FFA318F52CF07AEF0003CFD5 /* Frog.mp3 */,
+				FFA318F62CF07AEF0003CFD5 /* Giraffe.mp3 */,
+				FFA318F72CF07AEF0003CFD5 /* Hippopotamus.mp3 */,
+				FFA318F82CF07AEF0003CFD5 /* Horse.mp3 */,
+				FFA318F92CF07AEF0003CFD5 /* Kangaroo.mp3 */,
+				FFA318FA2CF07AEF0003CFD5 /* Leopard.mp3 */,
+				FFA318FB2CF07AEF0003CFD5 /* Lion.mp3 */,
+				FFA318FC2CF07AEF0003CFD5 /* Monkey.mp3 */,
+				FFA318FD2CF07AEF0003CFD5 /* Owl.mp3 */,
+				FFA318FE2CF07AEF0003CFD5 /* Panda.mp3 */,
+				FFA318FF2CF07AEF0003CFD5 /* Parrot.mp3 */,
+				FFA319002CF07AEF0003CFD5 /* Peacock.mp3 */,
+				FFA319012CF07AEF0003CFD5 /* Penguin.mp3 */,
+				FFA319022CF07AEF0003CFD5 /* Rabbit.mp3 */,
+				FFA319032CF07AEF0003CFD5 /* Rhinoceros.mp3 */,
+				FFA319042CF07AEF0003CFD5 /* Shark.mp3 */,
+				FFA319052CF07AEF0003CFD5 /* Snake.mp3 */,
+				FFA319062CF07AEF0003CFD5 /* Sound_Safari.xcdatamodeld */,
+				FFA319072CF07AEF0003CFD5 /* Tiger.mp3 */,
+				FFA319082CF07AEF0003CFD5 /* Turtle.mp3 */,
+				FFA319092CF07AEF0003CFD5 /* Whale.mp3 */,
+				FFA3190A2CF07AEF0003CFD5 /* Wolf.mp3 */,
+				FFA3190B2CF07AEF0003CFD5 /* Zebra.mp3 */,
+			);
+			path = SoundResouce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA318C22CF0797D0003CFD5 /* SoundSafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA318D62CF0797E0003CFD5 /* Build configuration list for PBXNativeTarget "SoundSafari" */;
+			buildPhases = (
+				7C9017D06615B46824DFE916 /* [CP] Check Pods Manifest.lock */,
+				FFA318BF2CF0797D0003CFD5 /* Sources */,
+				FFA318C02CF0797D0003CFD5 /* Frameworks */,
+				FFA318C12CF0797D0003CFD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundSafari;
+			productName = SoundSafari;
+			productReference = FFA318C32CF0797D0003CFD5 /* SoundSafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA318BB2CF0797D0003CFD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFA318C22CF0797D0003CFD5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FFA318BE2CF0797D0003CFD5 /* Build configuration list for PBXProject "SoundSafari" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA318BA2CF0797D0003CFD5;
+			productRefGroup = FFA318C42CF0797D0003CFD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA318C22CF0797D0003CFD5 /* SoundSafari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA318C12CF0797D0003CFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA3190E2CF07AEF0003CFD5 /* Hippopotamus.mp3 in Resources */,
+				FFA3190F2CF07AEF0003CFD5 /* Shark.mp3 in Resources */,
+				FFA319102CF07AEF0003CFD5 /* Dolphin.mp3 in Resources */,
+				FFA319112CF07AEF0003CFD5 /* Monkey.mp3 in Resources */,
+				FFA319122CF07AEF0003CFD5 /* Parrot.mp3 in Resources */,
+				FFA319132CF07AEF0003CFD5 /* Kangaroo.mp3 in Resources */,
+				FFA319142CF07AEF0003CFD5 /* Zebra.mp3 in Resources */,
+				FFA319152CF07AEF0003CFD5 /* Horse.mp3 in Resources */,
+				FFA319162CF07AEF0003CFD5 /* Leopard.mp3 in Resources */,
+				FFA319172CF07AEF0003CFD5 /* Rhinoceros.mp3 in Resources */,
+				FFA319182CF07AEF0003CFD5 /* Peacock.mp3 in Resources */,
+				FFA319192CF07AEF0003CFD5 /* Owl.mp3 in Resources */,
+				FFA3191A2CF07AEF0003CFD5 /* Fox.mp3 in Resources */,
+				FFA3191B2CF07AEF0003CFD5 /* Bear.mp3 in Resources */,
+				FFA3191C2CF07AEF0003CFD5 /* Snake.mp3 in Resources */,
+				FFA3191D2CF07AEF0003CFD5 /* Turtle.mp3 in Resources */,
+				FFA3191E2CF07AEF0003CFD5 /* Frog.mp3 in Resources */,
+				FFA3191F2CF07AEF0003CFD5 /* Panda.mp3 in Resources */,
+				FFA319202CF07AEF0003CFD5 /* Tiger.mp3 in Resources */,
+				FFA319212CF07AEF0003CFD5 /* Eagle.mp3 in Resources */,
+				FFA319222CF07AEF0003CFD5 /* Giraffe.mp3 in Resources */,
+				FFA319232CF07AEF0003CFD5 /* Penguin.mp3 in Resources */,
+				FFA319242CF07AEF0003CFD5 /* Rabbit.mp3 in Resources */,
+				FFA319252CF07AEF0003CFD5 /* Cheetah.mp3 in Resources */,
+				FFA319262CF07AEF0003CFD5 /* Elephant.mp3 in Resources */,
+				FFA319272CF07AEF0003CFD5 /* Crocodile.mp3 in Resources */,
+				FFA319282CF07AEF0003CFD5 /* Deer.mp3 in Resources */,
+				FFA319292CF07AEF0003CFD5 /* Wolf.mp3 in Resources */,
+				FFA3192A2CF07AEF0003CFD5 /* Whale.mp3 in Resources */,
+				FFA3192B2CF07AEF0003CFD5 /* Lion.mp3 in Resources */,
+				FFA318E52CF0798C0003CFD5 /* Assets.xcassets in Resources */,
+				FFA318E72CF0798C0003CFD5 /* LaunchScreen.storyboard in Resources */,
+				FFA318E82CF0798C0003CFD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C9017D06615B46824DFE916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundSafari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA318BF2CF0797D0003CFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA3192D2CF07C1D0003CFD5 /* SoundPlaySoundViewController.swift in Sources */,
+				FFA319392CF07C690003CFD5 /* SoundRateUSViewConytroller.swift in Sources */,
+				FFA319312CF07C330003CFD5 /* SoundQuizViewController.swift in Sources */,
+				FFA319372CF07C520003CFD5 /* SoundFeedbackViewController.swift in Sources */,
+				FFA3193B2CF07C7A0003CFD5 /* SoundAnimalStruct.swift in Sources */,
+				FFA318E92CF0798C0003CFD5 /* AppDelegate.swift in Sources */,
+				FFA319452CF08A490003CFD5 /* SoundStartViewController.swift in Sources */,
+				FFA319352CF07C4B0003CFD5 /* SoundAboutViewController.swift in Sources */,
+				FFA319432CF083460003CFD5 /* SoundNavigationController.swift in Sources */,
+				FFA319332CF07C410003CFD5 /* SoundSettingViewController.swift in Sources */,
+				FFA319412CF0832B0003CFD5 /* SoundPrivacyViewController.swift in Sources */,
+				FFA318EA2CF0798C0003CFD5 /* SceneDelegate.swift in Sources */,
+				FFA318EB2CF0798C0003CFD5 /* SoundGameHomeViewController.swift in Sources */,
+				FFA3193D2CF07C870003CFD5 /* Cons.swift in Sources */,
+				FFA3193F2CF07CCD0003CFD5 /* SoundAnimalQuizStruct.swift in Sources */,
+				FFA3190D2CF07AEF0003CFD5 /* Sound_Safari.xcdatamodeld in Sources */,
+				FFA3192F2CF07C260003CFD5 /* SoundAnimalCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFA318DF2CF0798C0003CFD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA318DE2CF0798C0003CFD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA318E12CF0798C0003CFD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA318E02CF0798C0003CFD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA318D72CF0797E0003CFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B2468DF26F61F787B1E213 /* Pods-SoundSafari.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundSafari/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sound Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SoundSafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFA318D82CF0797E0003CFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCD19BB27AB66E1AC5D858D /* Pods-SoundSafari.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundSafari/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sound Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SoundSafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFA318D92CF0797E0003CFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA318DA2CF0797E0003CFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA318BE2CF0797D0003CFD5 /* Build configuration list for PBXProject "SoundSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA318D92CF0797E0003CFD5 /* Debug */,
+				FFA318DA2CF0797E0003CFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA318D62CF0797E0003CFD5 /* Build configuration list for PBXNativeTarget "SoundSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA318D72CF0797E0003CFD5 /* Debug */,
+				FFA318D82CF0797E0003CFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFA319062CF07AEF0003CFD5 /* Sound_Safari.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFA3190C2CF07AEF0003CFD5 /* Sound_Safari.xcdatamodel */,
+			);
+			currentVersion = FFA3190C2CF07AEF0003CFD5 /* Sound_Safari.xcdatamodel */;
+			path = Sound_Safari.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFA318BB2CF0797D0003CFD5 /* Project object */;
+}
