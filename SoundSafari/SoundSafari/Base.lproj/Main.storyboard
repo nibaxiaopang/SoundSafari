@@ -168,7 +168,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="back"/>
                                 <connections>
-                                    <action selector="back:" destination="neT-g1-KJ4" eventType="touchUpInside" id="txI-K1-9wk"/>
                                     <action selector="backC:" destination="neT-g1-KJ4" eventType="touchUpInside" id="6Mm-5h-u1n"/>
                                 </connections>
                             </button>
@@ -1062,7 +1061,7 @@ At Sound Safari, we aim to bridge the gap between humans and nature by providing
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWy-9J-yBs">
                                         <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="441.33333333333331"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CHn-Bp-lzt">
-                                            <rect key="frame" x="0.0" y="0.0" width="332" height="442"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="441.33333333333331"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </view>
                                         <blurEffect style="regular"/>
