@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SoundSafari
 //
-//  Created by jin fu on 2024/11/22.
+//  Created by SoundSafari on 2024/11/22.
 //
 
 import UIKit

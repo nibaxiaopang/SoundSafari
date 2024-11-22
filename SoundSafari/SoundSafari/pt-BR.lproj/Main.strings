@@ -1,0 +1,81 @@
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "3g8-cO-5vl"; */
+"3g8-cO-5vl.normalTitle" = "Submit";
+
+/* Class = "UITextView"; text = "Welcome to Sound Safari, your ultimate adventure into the captivating world of animal sounds! Our app is designed to immerse users in the fascinating realm of wildlife through realistic soundscapes and engaging quizzes. Whether you’re a curious learner, a nature enthusiast, or just love animals, Sound Safari offers an educational and entertaining experience for all ages.\n\nFeatures:\n\n\t•\tReal Animal Sounds: Listen to the authentic calls and roars of animals like lions, tigers, elephants, giraffes, and more.\n\t•\tInteractive Quizzes: Test your knowledge with sound-based quizzes that challenge you to identify animals by their sounds.\n\t•\tExplore the Wild: Discover interesting facts about each animal, their habitats, and behaviors.\n\t•\tDiverse Categories: From land animals like zebras and kangaroos to aquatic wonders like dolphins and whales, explore a wide variety of creatures.\n\t•\tKids-Friendly Interface: Safe, easy-to-use features tailored for children to learn and have fun.\n\nAnimals Featured:\n\n\t•\tLand Animals: Lion, Tiger, Elephant, Giraffe, Zebra, Kangaroo, Panda, Monkey, Cheetah, Bear, Wolf, Fox, Deer, Leopard, Crocodile, Hippopotamus, Rhinoceros, Snake, Frog, Rabbit, Horse, Turtle.\n\t•\tBirds: Eagle, Parrot, Peacock, Owl.\n\t•\tAquatic Creatures: Penguin, Dolphin, Shark, Whale.\n\nOur Mission:\n\nAt Sound Safari, we aim to bridge the gap between humans and nature by providing an interactive platform to appreciate the diversity of wildlife. We believe that understanding and experiencing the sounds of nature not only entertains but also fosters awareness and conservation"; ObjectID = "5jq-Wh-aGT"; */
+"5jq-Wh-aGT.text" = "Welcome to Sound Safari, your ultimate adventure into the captivating world of animal sounds! Our app is designed to immerse users in the fascinating realm of wildlife through realistic soundscapes and engaging quizzes. Whether you’re a curious learner, a nature enthusiast, or just love animals, Sound Safari offers an educational and entertaining experience for all ages.\n\nFeatures:\n\n\t•\tReal Animal Sounds: Listen to the authentic calls and roars of animals like lions, tigers, elephants, giraffes, and more.\n\t•\tInteractive Quizzes: Test your knowledge with sound-based quizzes that challenge you to identify animals by their sounds.\n\t•\tExplore the Wild: Discover interesting facts about each animal, their habitats, and behaviors.\n\t•\tDiverse Categories: From land animals like zebras and kangaroos to aquatic wonders like dolphins and whales, explore a wide variety of creatures.\n\t•\tKids-Friendly Interface: Safe, easy-to-use features tailored for children to learn and have fun.\n\nAnimals Featured:\n\n\t•\tLand Animals: Lion, Tiger, Elephant, Giraffe, Zebra, Kangaroo, Panda, Monkey, Cheetah, Bear, Wolf, Fox, Deer, Leopard, Crocodile, Hippopotamus, Rhinoceros, Snake, Frog, Rabbit, Horse, Turtle.\n\t•\tBirds: Eagle, Parrot, Peacock, Owl.\n\t•\tAquatic Creatures: Penguin, Dolphin, Shark, Whale.\n\nOur Mission:\n\nAt Sound Safari, we aim to bridge the gap between humans and nature by providing an interactive platform to appreciate the diversity of wildlife. We believe that understanding and experiencing the sounds of nature not only entertains but also fosters awareness and conservation";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "5uu-F2-Rbm"; */
+"5uu-F2-Rbm.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "8N0-o3-Ub4"; */
+"8N0-o3-Ub4.text" = "About us";
+
+/* Class = "UILabel"; text = "Your Message"; ObjectID = "9YI-St-pLz"; */
+"9YI-St-pLz.text" = "Your Message";
+
+/* Class = "UILabel"; text = "Animal Sounds"; ObjectID = "CVn-Zb-n5s"; */
+"CVn-Zb-n5s.text" = "Animal Sounds";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DqU-TS-ydC"; */
+"DqU-TS-ydC.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Share your email, we'll reach out!"; ObjectID = "GzX-BT-Eyb"; */
+"GzX-BT-Eyb.placeholder" = "Share your email, we'll reach out!";
+
+/* Class = "UINavigationItem"; title = "About Us"; ObjectID = "JYE-VD-E3i"; */
+"JYE-VD-E3i.title" = "About Us";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "L4R-w6-PPE"; */
+"L4R-w6-PPE.text" = "Message";
+
+/* Class = "UILabel"; text = "About App"; ObjectID = "TDy-Ej-1Ng"; */
+"TDy-Ej-1Ng.text" = "About App";
+
+/* Class = "UILabel"; text = "Rate us"; ObjectID = "V1b-Xr-Bhc"; */
+"V1b-Xr-Bhc.text" = "Rate us";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "W91-K2-Fwq"; */
+"W91-K2-Fwq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Animal Quiz"; ObjectID = "YRL-Xn-Sne"; */
+"YRL-Xn-Sne.text" = "Animal Quiz";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "cdi-qm-r66"; */
+"cdi-qm-r66.text" = "About us";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "eBu-GR-srv"; */
+"eBu-GR-srv.text" = "Setting";
+
+/* Class = "UILabel"; text = "Click And Explore Sounds"; ObjectID = "ftk-h7-3NV"; */
+"ftk-h7-3NV.text" = "Click And Explore Sounds";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gC3-FI-Mrt"; */
+"gC3-FI-Mrt.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Animal Quiz"; ObjectID = "hje-Vv-yJz"; */
+"hje-Vv-yJz.text" = "Animal Quiz";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "iem-dW-D7L"; */
+"iem-dW-D7L.text" = "Message";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "o6u-EZ-jDE"; */
+"o6u-EZ-jDE.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "plJ-2U-04e"; */
+"plJ-2U-04e.text" = "Label";
+
+/* Class = "UILabel"; text = "Animal Sounds"; ObjectID = "qyF-dU-EXP"; */
+"qyF-dU-EXP.text" = "Animal Sounds";
+
+/* Class = "UILabel"; text = "Rate us"; ObjectID = "r5N-xh-KIG"; */
+"r5N-xh-KIG.text" = "Rate us";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "sBb-W9-p3E"; */
+"sBb-W9-p3E.text" = "Privacy";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wfl-SN-HMA"; */
+"wfl-SN-HMA.text" = "Label";
+
+/* Class = "UILabel"; text = "Your Email"; ObjectID = "xCD-Cq-x8s"; */
+"xCD-Cq-x8s.text" = "Your Email";

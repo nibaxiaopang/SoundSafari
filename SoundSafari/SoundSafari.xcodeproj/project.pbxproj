@@ -58,6 +58,9 @@
 		FFA319412CF0832B0003CFD5 /* SoundPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319402CF0832B0003CFD5 /* SoundPrivacyViewController.swift */; };
 		FFA319432CF083460003CFD5 /* SoundNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319422CF083460003CFD5 /* SoundNavigationController.swift */; };
 		FFA319452CF08A490003CFD5 /* SoundStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA319442CF08A490003CFD5 /* SoundStartViewController.swift */; };
+		FFBE74322CF098A9005F4C16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFBE74312CF098A9005F4C16 /* GoogleService-Info.plist */; };
+		FFBE74372CF09964005F4C16 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE74362CF09964005F4C16 /* UIViewController+Tool.m */; };
+		FFBE743A2CF09F1D005F4C16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFBE74382CF09F1D005F4C16 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +119,15 @@
 		FFA319402CF0832B0003CFD5 /* SoundPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPrivacyViewController.swift; sourceTree = "<group>"; };
 		FFA319422CF083460003CFD5 /* SoundNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundNavigationController.swift; sourceTree = "<group>"; };
 		FFA319442CF08A490003CFD5 /* SoundStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStartViewController.swift; sourceTree = "<group>"; };
+		FFBE74312CF098A9005F4C16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFBE74332CF09900005F4C16 /* SoundSafari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundSafari.entitlements; sourceTree = "<group>"; };
+		FFBE74342CF09963005F4C16 /* SoundSafari-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundSafari-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFBE74352CF09964005F4C16 /* UIViewController+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		FFBE74362CF09964005F4C16 /* UIViewController+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
+		FFBE74392CF09F1D005F4C16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FFBE743B2CF09F32005F4C16 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FFBE743C2CF09F32005F4C16 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FFBE743D2CF09F32005F4C16 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +180,7 @@
 		FFA318E42CF0798C0003CFD5 /* SoundSafari */ = {
 			isa = PBXGroup;
 			children = (
+				FFBE74332CF09900005F4C16 /* SoundSafari.entitlements */,
 				FFA318DB2CF0798C0003CFD5 /* AppDelegate.swift */,
 				FFA318E22CF0798C0003CFD5 /* SceneDelegate.swift */,
 				FFA318DC2CF0798C0003CFD5 /* Assets.xcassets */,
@@ -188,7 +201,10 @@
 				FFA3193A2CF07C7A0003CFD5 /* SoundAnimalStruct.swift */,
 				FFA3193C2CF07C870003CFD5 /* Cons.swift */,
 				FFA3193E2CF07CCD0003CFD5 /* SoundAnimalQuizStruct.swift */,
+				FFBE74352CF09964005F4C16 /* UIViewController+Tool.h */,
+				FFBE74362CF09964005F4C16 /* UIViewController+Tool.m */,
 				FFA318EC2CF07ABD0003CFD5 /* SoundResouce */,
+				FFBE74342CF09963005F4C16 /* SoundSafari-Bridging-Header.h */,
 			);
 			path = SoundSafari;
 			sourceTree = "<group>";
@@ -196,6 +212,7 @@
 		FFA318EC2CF07ABD0003CFD5 /* SoundResouce */ = {
 			isa = PBXGroup;
 			children = (
+				FFBE74312CF098A9005F4C16 /* GoogleService-Info.plist */,
 				FFA318ED2CF07AEF0003CFD5 /* Bear.mp3 */,
 				FFA318EE2CF07AEF0003CFD5 /* Cheetah.mp3 */,
 				FFA318EF2CF07AEF0003CFD5 /* Crocodile.mp3 */,
@@ -227,6 +244,7 @@
 				FFA319092CF07AEF0003CFD5 /* Whale.mp3 */,
 				FFA3190A2CF07AEF0003CFD5 /* Wolf.mp3 */,
 				FFA3190B2CF07AEF0003CFD5 /* Zebra.mp3 */,
+				FFBE74382CF09F1D005F4C16 /* Localizable.strings */,
 			);
 			path = SoundResouce;
 			sourceTree = "<group>";
@@ -242,6 +260,8 @@
 				FFA318BF2CF0797D0003CFD5 /* Sources */,
 				FFA318C02CF0797D0003CFD5 /* Frameworks */,
 				FFA318C12CF0797D0003CFD5 /* Resources */,
+				E826110FC3B118FA95CD7DDE /* [CP] Embed Pods Frameworks */,
+				91CED5C9BFF35CCB5A516DE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +284,7 @@
 				TargetAttributes = {
 					FFA318C22CF0797D0003CFD5 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -274,6 +295,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = FFA318BA2CF0797D0003CFD5;
 			productRefGroup = FFA318C42CF0797D0003CFD5 /* Products */;
@@ -300,6 +322,7 @@
 				FFA319152CF07AEF0003CFD5 /* Horse.mp3 in Resources */,
 				FFA319162CF07AEF0003CFD5 /* Leopard.mp3 in Resources */,
 				FFA319172CF07AEF0003CFD5 /* Rhinoceros.mp3 in Resources */,
+				FFBE743A2CF09F1D005F4C16 /* Localizable.strings in Resources */,
 				FFA319182CF07AEF0003CFD5 /* Peacock.mp3 in Resources */,
 				FFA319192CF07AEF0003CFD5 /* Owl.mp3 in Resources */,
 				FFA3191A2CF07AEF0003CFD5 /* Fox.mp3 in Resources */,
@@ -319,6 +342,7 @@
 				FFA319282CF07AEF0003CFD5 /* Deer.mp3 in Resources */,
 				FFA319292CF07AEF0003CFD5 /* Wolf.mp3 in Resources */,
 				FFA3192A2CF07AEF0003CFD5 /* Whale.mp3 in Resources */,
+				FFBE74322CF098A9005F4C16 /* GoogleService-Info.plist in Resources */,
 				FFA3192B2CF07AEF0003CFD5 /* Lion.mp3 in Resources */,
 				FFA318E52CF0798C0003CFD5 /* Assets.xcassets in Resources */,
 				FFA318E72CF0798C0003CFD5 /* LaunchScreen.storyboard in Resources */,
@@ -351,6 +375,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		91CED5C9BFF35CCB5A516DE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundSafari/Pods-SoundSafari-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundSafari/Pods-SoundSafari-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundSafari/Pods-SoundSafari-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E826110FC3B118FA95CD7DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundSafari/Pods-SoundSafari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundSafari/Pods-SoundSafari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundSafari/Pods-SoundSafari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -358,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBE74372CF09964005F4C16 /* UIViewController+Tool.m in Sources */,
 				FFA3192D2CF07C1D0003CFD5 /* SoundPlaySoundViewController.swift in Sources */,
 				FFA319392CF07C690003CFD5 /* SoundRateUSViewConytroller.swift in Sources */,
 				FFA319312CF07C330003CFD5 /* SoundQuizViewController.swift in Sources */,
@@ -385,6 +444,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFA318DE2CF0798C0003CFD5 /* Base */,
+				FFBE743B2CF09F32005F4C16 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -393,8 +453,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFA318E02CF0798C0003CFD5 /* Base */,
+				FFBE743C2CF09F32005F4C16 /* pt-BR */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBE74382CF09F1D005F4C16 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBE74392CF09F1D005F4C16 /* en */,
+				FFBE743D2CF09F32005F4C16 /* pt-BR */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,11 +476,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SoundSafari/SoundSafari.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SoundSafari/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sound Safari";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Sound Safari uses tracking to personalize features and enhance your experience while ensuring your privacy.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -422,11 +496,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SoundSafari;
+				PRODUCT_BUNDLE_IDENTIFIER = com.animal.SoundSafari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundSafari/SoundSafari-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -438,11 +514,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SoundSafari/SoundSafari.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SoundSafari/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sound Safari";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Sound Safari uses tracking to personalize features and enhance your experience while ensuring your privacy.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,11 +534,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SoundSafari;
+				PRODUCT_BUNDLE_IDENTIFIER = com.animal.SoundSafari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoundSafari/SoundSafari-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -469,6 +550,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -532,6 +614,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

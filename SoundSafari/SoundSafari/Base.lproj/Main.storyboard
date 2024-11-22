@@ -145,11 +145,19 @@
         <!--Sound Privacy View Controller-->
         <scene sceneID="JlW-YO-38p">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="neT-g1-KJ4" customClass="SoundPrivacyViewController" customModule="SoundSafari" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SoundPrivacyViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="neT-g1-KJ4" customClass="SoundPrivacyViewController" customModule="SoundSafari" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pR7-hb-jmR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnF-g8-GUZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa6-Sm-BsC">
                                 <rect key="frame" x="355" y="14" width="45" height="45"/>
                                 <constraints>
@@ -161,17 +169,34 @@
                                 <state key="normal" image="back"/>
                                 <connections>
                                     <action selector="back:" destination="neT-g1-KJ4" eventType="touchUpInside" id="txI-K1-9wk"/>
+                                    <action selector="backC:" destination="neT-g1-KJ4" eventType="touchUpInside" id="6Mm-5h-u1n"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="dIq-i2-3er">
+                                <rect key="frame" x="197" y="358" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jGc-HB-fP6"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="jGc-HB-fP6" firstAttribute="trailing" secondItem="aa6-Sm-BsC" secondAttribute="trailing" constant="14" id="Ekg-tO-7wK"/>
                             <constraint firstItem="aa6-Sm-BsC" firstAttribute="top" secondItem="jGc-HB-fP6" secondAttribute="top" constant="14" id="Nzd-Nl-OBs"/>
+                            <constraint firstItem="dIq-i2-3er" firstAttribute="centerX" secondItem="pR7-hb-jmR" secondAttribute="centerX" id="RJC-fi-uf3"/>
+                            <constraint firstItem="LnF-g8-GUZ" firstAttribute="top" secondItem="pR7-hb-jmR" secondAttribute="top" id="Ug3-19-aR5"/>
+                            <constraint firstItem="dIq-i2-3er" firstAttribute="centerY" secondItem="pR7-hb-jmR" secondAttribute="centerY" id="gdq-h8-vQ4"/>
+                            <constraint firstAttribute="trailing" secondItem="LnF-g8-GUZ" secondAttribute="trailing" id="hMe-ki-Vbw"/>
+                            <constraint firstItem="LnF-g8-GUZ" firstAttribute="leading" secondItem="pR7-hb-jmR" secondAttribute="leading" id="kAu-0W-Eim"/>
+                            <constraint firstAttribute="bottom" secondItem="LnF-g8-GUZ" secondAttribute="bottom" id="v3D-U5-SmH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Coc-Cj-Qgr"/>
+                    <connections>
+                        <outlet property="soundBackBtn" destination="aa6-Sm-BsC" id="0NM-sp-n5c"/>
+                        <outlet property="soundBottomCos" destination="v3D-U5-SmH" id="7I4-E2-tO5"/>
+                        <outlet property="soundIndicatorView" destination="dIq-i2-3er" id="z3e-QR-B6h"/>
+                        <outlet property="soundTopCos" destination="Ug3-19-aR5" id="Kps-cg-pRe"/>
+                        <outlet property="soundWebView" destination="LnF-g8-GUZ" id="MgV-tK-X0E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Vp-TL-rys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1037,7 +1062,7 @@ At Sound Safari, we aim to bridge the gap between humans and nature by providing
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWy-9J-yBs">
                                         <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="441.33333333333331"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CHn-Bp-lzt">
-                                            <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="441.33333333333331"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="332" height="442"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </view>
                                         <blurEffect style="regular"/>
@@ -1649,6 +1674,9 @@ At Sound Safari, we aim to bridge the gap between humans and nature by providing
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0or-qo-xq0"/>
+                    <connections>
+                        <outlet property="playBtn" destination="j0R-pK-dRf" id="93D-hd-zjV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nva-dO-qQK" sceneMemberID="firstResponder"/>
             </objects>

@@ -6,5 +6,6 @@ target 'SoundSafari' do
   use_frameworks!
 
   # Pods for SoundSafari
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end
